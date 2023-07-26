@@ -33,18 +33,15 @@ class _CalculatorState extends State<Calculator> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
             const Row(
-
               mainAxisAlignment: MainAxisAlignment.end,
-
               children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 20),
+                  padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   child: Text(
                     '0',
                     style: TextStyle(
                       fontSize: 85,
                       color: Colors.white,
-
                     ),
                   ),
                 ),
